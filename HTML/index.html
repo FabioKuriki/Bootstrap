@@ -11,58 +11,126 @@
 </head>
 <body>
     <!--Barra de Navegação-->
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
             <img src="../Imagens/estudo.png" alt="Logo da empresa" width="30" height="30" class="d-inline-block align-text-top">
             JovemProgramador
           </a>
+          <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Entrar</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="#">/</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cadastrar</a>
+            </li>
+          </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Pesquisar</button>
           </form>
         </div>
     </nav>
-    
 
     <!--Carrosel-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <a href="./html5.html"><div class="carousel-item active">
-            <img src="../Imagens/html5.png" class="rounded mx-auto d-block" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>HTML5</h5>
-              <p>Venha aprender a como montar a estrutura de um site</p>
-            </div>
+          <div class="text-center">
+            <a href="./html5.html"><div class="carousel-item active">
+              <img src="../Imagens/html5.png" style="height: 500px; width: 900px;" class="img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-warning fs-1 fw-bold">HTML</h5><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p class="text-warning fs-1 fw-bold">Venha aprender a como montar a estrutura de um site</p>
+              </div>
           </div></a>
           <div class="carousel-item">
-            <img src="../Imagens/css.png" class="rounded mx-auto d-block" alt="...">
+            <img src="../Imagens/css.png" style="height: 500px; width: 500px;" class="img-fluid" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>CSS</h5>
-              <p>Entenda o responsável pelo visual de um site</p>
+              <h5 class="text-warning fs-1 fw-bold">CSS</h5><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="text-warning fs-1 fw-bold">Entenda o responsável pelo visual de um site</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../Imagens/bootstrap.png" class="rounded mx-auto d-block" alt="...">
+            <img src="../Imagens/bootstrap.png" style="height: 500px; width: 500px;" class="img-fluid" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Bootstrap</h5>
-              <p>Agilize a criação de um site por meio do Bootstrap</p>
+              <h5 class="text-warning fs-1 fw-bold">Bootstrap</h5><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="text-warning fs-1 fw-bold">Agilize a criação de um site por meio do Bootstrap</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Cursos -->
+      <div class="container-fluid">
+        <div class="row">
+          <p class="fs-1 fw-bold"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;Conheça Também</p>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="../Imagens/python.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Python</h5>
+                <p class="card-text">Torne-se um programador em Python.</p>
+                <a href="#" class="btn btn-primary">QUERO APRENDER!!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="../Imagens/cSharp.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">C Sharp</h5>
+                <p class="card-text">Torne-se um programador em C Sharp.</p>
+                <a href="#" class="btn btn-primary">QUERO APRENDER!!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="../Imagens/arduino.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Arduino</h5>
+                <p class="card-text">Em projetos de hardware, o curso de arduino pode ser um excelente opção para controle de componentes.</p>
+                <a href="#" class="btn btn-primary">QUERO APRENDER!!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Perguntas Frequentes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2024 JovemProgramador, desenvolvido por Fabio</p>
+        </footer>
       </div>
 </body>
 </html>

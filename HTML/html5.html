@@ -10,38 +10,141 @@
     <title>HTML5</title>
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            <img src="../Imagens/estudo.png" alt="Logo da empresa" width="30" height="30" class="d-inline-block align-text-top">
-            JovemProgramador
-          </a>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
-        </div>
-    </nav>
+     <!--Barra de Navegação-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="../Imagens/estudo.png" alt="Logo da empresa" width="30" height="30" class="d-inline-block align-text-top">
+          JovemProgramador
+        </a>
+        <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Entrar</a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#">/</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cadastrar</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+  </nav>
 
-    <div class="row">
-        <div class="col-sm-3 mb-3 mb-sm-0">
-            <div class="card text-center mb-3" style="width: 18rem;">
-            <img src="../Imagens/css.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">CSS</h5>
-                <p class="card-text">Aprenda a como configurar e definir a aparência do seu site.</p>
-                <a href="#" class="btn btn-primary">QUERO APRENDER!!</a>
+    <!-- Grid e jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-bg-warning p-3">
+      <div class="container text-bg-warning p-3">
+        <div class="row">
+          <div class="col-sm">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <br>
+                <h1 class="display-4">HTML5</h1><br>
+                <p class="lead">
+                  Aqui é o começo de tudo para a criação de websites na internet.<br> 
+                  Aprenda a construir e preparar estrutura do HTML a partir do zero.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-            <div class="card text-center mb-3" style="width: 18rem;">
-            <img src="../Imagens/bootstrap.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bootstrap</h5>
-              <p class="card-text">Entenda como funciona uma das frameworks mais importantes na criação de seu site.</p>
-              <a href="#" class="btn btn-primary">QUERO APRENDER!!</a>
-            </div>
+          <div class="col-sm">
+            <img class="rounded float-end" style="height: 250px" src="../Imagens/html5.png">
+          </div>
         </div>
       </div>
+    </div> 
+
+    <!-- ABA AULAS -->
+    <div class="container">
+      <div class="row">
+        <br>
+      </div>
+      <div class="row">
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          AULAS
+        </a>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            AULA 1 - Linguagens de Marcação
+          </div>
+          <div class="card card-body">
+            AULA 2 - O que é o HTML?
+          </div>
+          <div class="card card-body">
+            AULA 3 - Principais Tags
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA EXERCÍCIOS -->
+    <div class="container">
+      <div class="row">
+        <br>
+      </div>
+      <div class="row">
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+          EXERCÍCIOS
+        </a>
+        <div class="collapse" id="collapseExample2">
+          <div class="card card-body">
+            Exercício 01
+          </div>
+          <div class="card card-body">
+            Exercício 02
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA PROVA FINAL -->
+    <div class="container">
+      <div class="row">
+        <br>
+      </div>
+      <div class="row">
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+          PROVA FINAL
+        </a>
+        <div class="collapse" id="collapseExample3">
+          <div class="card card-body">
+            Simulado
+          </div>
+          <div class="card card-body">
+            Prova Final
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA CERTIFICADO -->
+    <div class="container">
+      <div class="row">
+        <br>
+      </div>
+      <div class="row">
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+          CERTIFICADO
+        </a>
+        <div class="collapse" id="collapseExample4">
+          <div class="card card-body">
+            RETIRAR CERTIFICADO
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Perguntas Frequentes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 JovemProgramador, desenvolvido por Fabio</p>
+      </footer>
+    </div>
 </body>
 </html>
