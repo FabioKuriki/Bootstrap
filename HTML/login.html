@@ -11,39 +11,54 @@
 <body>
    <!--Barra de Navegação-->
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-md-center"><!--Centralizar o nome da empresa-->
       <a class="navbar-brand" href="./index.html">
-        <img src="../Imagens/estudo.png" alt="Logo da empresa" width="30" height="30" class="d-inline-block align-text-top">
-        JovemProgramador
+          <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+            <li>
+              <img src="../Imagens/estudo.png" alt="Logo da empresa" width="30" height="30" class="d-inline-block align-text-top">
+              <text class="">JovemProgramador</text>
+            </li>
+          </ul>
       </a>
     </div>
   </nav>
 
   <!-- Login -->
-    <div class="container-fluid">
-      <div class="row"><br><br><br><br><br></div>
-      <div class="row">
+    <div class="container-fluid" style="background-image:url(../Imagens/programador.jpg);">
+      <div class="row ">
+        <br><br><br><br><br>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
         <div class="col"></div>
         <div class="col">
+          <text class="h1 text-light fw-bold">Entrar</text>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col mx-5 ">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+            <label for="exampleFormControlInput1" class="form-label  text-light fw-bold">E-mail</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
         </div>
-          <label for="inputPassword5" class="form-label">Senha</label>
+          <label for="inputPassword5" class="form-label  text-light fw-bold">Senha</label>
           <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-          <div id="passwordHelpBlock" class="form-text">
+          <div id="passwordHelpBlock" class="form-text text-light fw-bold">
               Sua senha deve ter no mínimo 13 caracteres, contendo letras maiúsculas, minúsculas e símbolos
           </div>
         </div>
         <div class="col">
-            <img src="../Imagens/computador.jpg">
+            <img class="rounded mx-auto d-block" src="../Imagens/computador.jpg">
         </div>
-        <div class="col"></div>
     </div>
    
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container bg-light">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Perguntas Frequentes</a></li>
@@ -51,7 +66,7 @@
           </ul>
           <p class="text-center text-body-secondary">© 2024 JovemProgramador, desenvolvido por Fabio</p>
         </footer>
-      </div>
+    </div>
     
 </body>
 </html>
